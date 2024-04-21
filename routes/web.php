@@ -18,6 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('upload-file', [SaleController::class,'index']);
-Route::post('upload-file', [SaleController::class,'upload']);
-Route::get('store-file', [SaleController::class,'store']);
+Route::post('upload-file', [SaleController::class,'store']);
 
